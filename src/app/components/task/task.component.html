@@ -1,0 +1,57 @@
+<p class="Total-Tasks-4">Task Total: {{TaskTotal}}</p>
+
+
+
+<div class='col'>
+
+
+  <div class='Rectangle-3' *ngFor='let task of task1'>
+    <p class="Task">{{task.name}}<span><a href="javascript:void(0);" class="layer" (click)="show1()">+</a></span></p>
+  </div>
+  <div class="employeeBox" *ngIf="hide1">
+    <form class="Choose-Employee">
+      <div><input type="button" class="Employee" id="1" name="Task 1" value="Employee A" (click)="assign($event)"></div>
+      <div><input type="button" class="Employee" id="2" name="Task 1" value="Employee B" (click)="assign($event)"></div>
+      <div><input type="button" class="Employee" id="3" name="Task 1" value="Employee C" (click)="assign($event)"></div>
+    </form>
+  </div>
+
+
+
+  <div class='Rectangle-3' *ngFor='let task of task2'>
+    <p class="Task">{{task.name}}<span><a href="javascript:void(0);" class="layer" (click)="show2()">+</a></span></p>
+  </div>
+  <div class="employeeBox" *ngIf="hide2">
+    <form class="Choose-Employee">
+      <div><input type="submit" class="Employee" id="1" name="Task 2" value="Employee A" (click)="assign($event)"></div>
+      <div><input type="submit" class="Employee" id="2" cname="Task 2" value="Employee B" (click)="assign($event)"></div>
+      <div><input type="submit" class="Employee" id="3" name="Task 2" value="Employee C" (click)="assign($event)"></div>
+    </form>
+  </div>
+
+
+
+  <div class='Rectangle-3' *ngFor='let task of task3'>
+    <p class="Task">{{task.name}}<span><a href="javascript:void(0);" class="layer" (click)="show3()">+</a></span></p>
+  </div>
+  <div class="employeeBox" *ngIf="hide3">
+    <form class="Choose-Employee">
+      <div><input type="submit" class="Employee" id="1" name="Task 3" value="Employee A"  (click)="assign($event)"></div>
+      <div><input type="submit" class="Employee" id="2" name="Task 3" value="Employee B"  (click)="assign($event)"></div>
+      <div><input type="submit" class="Employee" id="3" name="Task 3" value="Employee C"  (click)="assign($event)"></div>
+    </form>
+  </div>
+
+  <div class='Rectangle-3' *ngFor='let task of task4'>
+    <p class="Task">{{task.name}}<span><a href="javascript:void(0);" class="layer" (click)="show4()">+</a></span></p>
+  </div>
+  <div class="employeeBox" *ngIf="hide4">
+    <form class="Choose-Employee">
+      <div><input type="submit" class="Employee" id="1" name="Task 4" value="Employee A" (click)="assign($event)"></div>
+      <div><input type="submit" class="Employee" id="2" name="Task 4" value="Employee B" (click)="assign($event)"></div>
+      <div><input type="submit" class="Employee" id="3" name="Task 4" value="Employee C" (click)="assign($event)"></div>
+    </form>
+  </div>
+
+
+</div>

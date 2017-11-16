@@ -1,0 +1,28 @@
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+.container-fluid {
+  margin-top: 5%;
+  height: 953px;
+  width: 1202px;
+}
+
+
+.line {
+  left: 31%;
+  width: 1px;
+  height: 71%;
+  display: inline;
+  position: absolute;
+  border-left: solid 2px #c7c9ca;
+}
+
+.line-Copy {
+  left: 65%;
+  width: 1px;
+  height: 70%;
+  display: inline;
+  position: absolute;
+  border-left: solid 2px #c7c9ca;
+}

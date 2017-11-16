@@ -1,0 +1,53 @@
+.Total-Tasks-4{
+  width: 133px;
+  height: 24px;
+  font-family: Roboto;
+  font-size: 20px;
+  letter-spacing: 0.7px;
+  text-align: left;
+  color: #4a4a4a;
+
+}
+
+.Rectangle-3{
+  width: 309px;
+  height: 53px;
+  border-radius: 3px;
+  background-color: #ff526b;
+  margin: 5%;
+  text-align:center;
+  padding: 3%;
+  font-size: 18px;
+  color:white;
+}
+
+span{
+  float: right;
+}
+
+a{
+  color: white;
+  font-size: 18px;
+}
+
+.employeeBox{
+  width: 167.7px;
+  height: 129px;
+  border-radius: 3px;
+  background-color: #ffffff;
+  border: solid 1px #979797;
+  margin: 0px;
+  transform: translate(158px, -29px);
+}
+
+.Employee{
+  width: 100%;
+  font-size: 18px;
+  line-height: 1.22;
+  letter-spacing: 0.6px;
+  text-align: center;
+  color: #4a4a4a;
+  border: 0px;
+  padding: 10px;
+  background-color: #ffffff;
+}

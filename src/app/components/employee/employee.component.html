@@ -1,0 +1,18 @@
+<p class="title">Team Members    <span class="total">Total Tasks: {{task}}</span></p>
+<div class="col">
+
+<div *ngFor="let employee of employees">
+
+
+
+
+<div class="rectangle"  (click)="getDetail($event)">
+<h4 class="employee" id="{{employee.id}}" >{{employee.name}} <br> <br><span class="emplyTask">Tasks  {{employee.totalTask}} </span></h4>
+
+
+</div>
+
+
+
+</div>
+</div>

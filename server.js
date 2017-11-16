@@ -19,12 +19,12 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false}));
 
 
+
+
+
 // CRUD HTTP
 const company = require('./router/company');
 app.use(company)
-
-
-
 
 
 
