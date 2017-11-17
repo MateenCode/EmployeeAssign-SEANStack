@@ -1,1 +1,1 @@
-https://github.com/MateenCode/symplete-assessment/blob/master/Screen%20Shot%202017-11-16%20at%203.39.26%20PM.png?raw=true
+<img width="1241" alt="screen shot 2017-11-16 at 3 39 26 pm" src="https://user-images.githubusercontent.com/28902787/32923386-ee4fe184-cafc-11e7-9f99-9c7a5f14ce68.png">
