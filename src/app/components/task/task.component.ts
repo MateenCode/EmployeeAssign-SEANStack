@@ -10,32 +10,16 @@ import 'rxjs/add/operator/map';
 })
 export class TaskComponent {
   TaskTotal: number;
-  task1: any;
-  task2: any;
-  task3: any;
-  task4: any;
+  tasks: any;
+  employees:any;
 
 
-  hide1:boolean = false;
-  hide2:boolean = false;
-  hide3:boolean = false;
-  hide4:boolean = false;
+  hide:boolean = false;
 
 
-  show1(){
-    this.hide1 = !this.hide1;
+  show(){
+    this.hide = !this.hide;
   }
-  show2(){
-    this.hide2 = !this.hide2;
-  }
-  show3(){
-    this.hide3 = !this.hide3;
-  }
-  show4(){
-    this.hide4 = !this.hide4;
-  }
-
-
 
 
 
@@ -49,26 +33,26 @@ export class TaskComponent {
 
 
 
+
   constructor(
     private http: HttpClient
   ) {}
 
 
   ngOnInit(): void {
+
     this.TaskTotal = 4;
 
-    this.http.get('http://localhost:3000/task1').subscribe(data => {
-      return this.task1 = data;
+    this.http.get('http://localhost:3000/task').subscribe(data => {
+      return this.tasks = data;
     });
-    this.http.get('http://localhost:3000/task2').subscribe(data => {
-      return this.task2 = data;
+
+
+
+    this.http.get('http://localhost:3000/employee').subscribe(data => {
+      this.employees = data
     });
-    this.http.get('http://localhost:3000/task3').subscribe(data => {
-      return  this.task3 = data;
-    });
-    this.http.get('http://localhost:3000/task4').subscribe(data => {
-      return this.task4 = data;
-    });
+
 
 
 
